@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+}
+.logo{
+
+}
+.logo img{
+    height: 55px;
+    width: 60px;
+    border: 1px solid blue;
+    border-radius: 50%;
+}
+.navul{
+    display: flex;
+    width: 80%;
+    padding:10px ;
+}
+.navul ul{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.navul li{
+    list-style: none;
+    background-color: none;
+    padding: 0.6em 0.6em;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navul li:hover{
+background-color:lemonchiffon;
+border-radius: 6px;
+border-bottom: 3px solid black;
+}
+.navul li a{
+    text-decoration: none;
+    color: white;
+}
+.navul li a:hover{
+    color: black;
+}
+.rightnav{
+    width: 50%;
+    text-align: right;
+    padding-right: 30px;
+}
+
+#search{
+    border-radius: 12px;
+    /*border: 2px solid black;*/
+    padding: 4px;
+}
+.btn{
+
+}
+.rightnav btn{
+    border-radius: 4px;
+    padding: 10px;
+    color:blueviolet;
+    background-color: cadetblue;
+}
+.rightnav btn:hover{
+    background-color: coral;
+    color: darkgray;
+    border-bottom: 2px solid cyan;
+}
+.background{
+    background: rgb(95, 93, 93) url('skyscraper-3196390_1920.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstsection{
+height: 100vh;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+    height: 80%;;
+
+}
+.firsthalf{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 80%;
+
+}
+.secondhalf{
+width: 30%;
+}
+.button{
+margin: 4px;
+}
+#btn1{
+padding: 8px;
+border: 2px solid black;
+border-radius: 15px;
+background: none;
+color:white;
+}
+#btn2{
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: none;
+    color:white;
+    
+}
+.secondhalf img{
+height: 150px;
+width: 150px;
+border: 2px solid black;
+border-radius: 50%;
+}
+.textbig{
+font-size: 2em;
+font-weight: bold;
+color:white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-bottom: 14px;
+}
+.smalltext{
+font-size: 1.2em;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:white;
+margin-bottom: 15px;
+padding-right: 60px;
+}
+.textbig1{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 14px;
+    }
+    .smalltext1{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 15px;
+    }
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    background-color: ghostwhite;
+    margin: auto;
+    margin-top: 2em;
+
+}
+.sec-left{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    margin: auto; 
+    margin-top: 2em;
+
+}
+.text{
+padding: 35px;
+width: 50%;
+}
+.image{
+}
+.image img{
+height: 200px;
+width: 240px;;
+border-radius: 10px;
+}
+.conti{
+    height: 300px;  
+  }
+.con{
+max-width: 70%;
+height: 60vh;
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.frm{
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+.frm-input{
+padding: 6px;
+border-radius: 15px;
+margin: 10px;
+}
+#head{
+    margin-bottom: 20px ;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#message{
+    height: 63px;
+    border-radius: 4px;
+    margin: 10px;
+}
+.foot{
+text-align: center;
+padding: 15px;
+border-top: 2px solid black;
+}
+#footi{
+
+}
+.myphp p{
+    color: green;
+    font-size: 10px;
+
+}
+#btn3{
+    color:white;
+    background-color:black;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 15px;
+    border:2px solid white;
+    cursor: pointer;
+}
